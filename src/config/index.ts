@@ -11,9 +11,9 @@ import { socialLinks, homeSocialLinks } from "./social";
 import { sourceLinks } from "./source";
 
 export const identity: Identity = {
-  name: "Vinit Shahdeo",
+  name: "Bayu Dwi Darmawan",
   logo: "/img/vinitshahdeo.png",
-  email: "vinishahdeo@gmail.com",
+  email: "dwbayu526@gmail.com",
 };
 
 export const openGraphImage: string = "/img/vinitshahdeo-og.jpg";
@@ -31,34 +31,24 @@ export const navBarLinks: NavBarLink[] = [
     title: "Now",
     url: "/now",
   },
-  {
-    title: "Featured",
-    url: "/featured",
-  },
 ];
 
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Vinit Shahdeo | Portfolio",
+    title: "Bayu Dwi Darmawan | Portfolio",
     description:
-      "Explore the portfolio of Vinit Shahdeo, a Senior Software Engineer specializing in building scalable, secure, and performant backend microservices in Node.js and Go.",
+      "Bayu Dwi Darmawan adalah orang yang pernah bekerja di bidang percetakan dengan pengalaman lebih dari 3 tahun dan saat ini saya masih bekerja sebagai operator mesin Proof Print di salah satu perusahaan.",
     image: openGraphImage,
-    domain: "vinitshahdeo.com",
-    url: "https://vinitshahdeo.com",
+    domain: "bayud.my.id",
+    url: "https://bayud.my.id/",
   },
-  role: "Senior Backend Engineer",
+  role: "Graphic Production and Blogger",
   description:
-    "Software Engineer specializing in building scalable, secure, and performant backend microservices in Node.js and Go. Honored to be recognized as a GitHub Star twice from India. With a knack for building event-driven architecture, I balance code with badminton and find peace in a sip of tea and poetry.",
+    "Bekerja di sebuah percetakan dan memperdalam ilmu warna serta tetap aktif untuk berkarya lewat tulisan dengan tujuan berbagi pengalaman.",
   socialLinks: socialLinks,
   homeSocialLinks: homeSocialLinks,
   links: [
-    {
-      title: "Peerlist",
-      url: "https://peerlist.io/vinitshahdeo",
-      icon: "mdi:link-circle",
-      external: true,
-    },
     {
       title: "About",
       url: "/about",
@@ -66,13 +56,13 @@ export const homePageContent: HomePageContent = {
     },
     {
       title: "Blog",
-      url: "https://vinitshahdeo.dev/",
+      url: "https://www.cariapa.id/",
       icon: "mdi:share-circle",
       external: true,
     },
     {
-      title: "Source",
-      url: "https://github.com/vinitshahdeo/portfolio",
+      title: "Resume",
+      url: "#",
       icon: "mdi:github",
       external: true,
     },
@@ -82,20 +72,20 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Vinit Shahdeo | Senior Software Engineer & GitHub Star",
+    title: "About | Bayu Dwi Darmawan",
     description:
-      "Discover Vinit Shahdeo, a Senior Software Engineer at Novo, formerly Software Engineer II at Postman. GitHub Star from India, specializing in Node.js, Go, Microservices, Kafka, GraphQL, REST, and AWS.",
+      "Bayu Dwi Darmawan adalah orang yang pernah bekerja di bidang percetakan dengan pengalaman lebih dari 3 tahun dan saat ini saya masih bekerja sebagai operator mesin Proof Print di salah satu perusahaan.",
     image: openGraphImage,
-    domain: "vinitshahdeo.com",
-    url: "https://vinitshahdeo.com/about",
+    domain: "bayud.my.id/",
+    url: "https://bayud.my.id/about/",
   },
-  subtitle: "Thanks for stopping by! Here's a bit about me.",
+  subtitle: "Terimakasih untuk terus mendukung saya, ini cerita singkat saya",
   about: {
     description: `
-      Senior Software Engineer at Novo | Previously at Postman | GitHub Star from India | Node.js, Go, Microservices, Kafka, GraphQL, REST, AWS | Based in Bengaluru, India
+      Bayu Dwi Darmawan adalah orang yang pernah bekerja di bidang percetakan dengan pengalaman lebih dari 3 tahun dan saat ini saya masih bekerja sebagai operator mesin Proof Print di salah satu perusahaan.
     `,
     image_l: {
-      url: "/img/vinit_shahdeo.jpg",
+      url: "#",
       alt: "Vinit Shahdeo",
     },
     image_r: {

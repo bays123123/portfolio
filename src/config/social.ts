@@ -1,27 +1,22 @@
 import type { SocialLink } from "../types/config";
 
 export const socialLinks: SocialLink[] = [
-  {
-    title: "GitHub",
-    url: "https://github.com/vinitshahdeo",
-    icon: "mdi:github",
-    external: true,
-  },
+
   {
     title: "Twitter",
-    url: "https://x.com/vinit_shahdeo",
+    url: "https://x.com/byoudw",
     icon: "mdi:twitter",
     external: true,
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/vinitshahdeo",
+    url: "https://www.linkedin.com/in/bayu-dwi-darmawan/",
     icon: "mdi:linkedin",
     external: true,
   },
   {
     title: "Instagram",
-    url: "https://www.instagram.com/vinitshahdeo",
+    url: "https://www.instagram.com/byoudw/",
     icon: "mdi:instagram",
     external: true,
   },
@@ -29,20 +24,20 @@ export const socialLinks: SocialLink[] = [
 
 export const homeSocialLinks: SocialLink[] = [
   {
-    title: "GitHub",
-    url: "https://github.com/vinitshahdeo",
-    icon: "mdi:github",
+    title: "Instagram",
+    url: "https://www.instagram.com/byoudw/",
+    icon: "mdi:instagram",
     external: true,
   },
   {
     title: "Twitter",
-    url: "https://x.com/vinit_shahdeo",
+    url: "https://x.com/byoudw",
     icon: "mdi:twitter",
     external: true,
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/vinitshahdeo",
+    url: "https://www.linkedin.com/in/bayu-dwi-darmawan/",
     icon: "mdi:linkedin",
     external: true,
   },
